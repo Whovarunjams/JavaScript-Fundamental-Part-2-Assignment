@@ -1,0 +1,43 @@
+﻿OPERATORS IN JAVASCRIPT
+PART 2
+
+
+Problem Statement 2 :- Describe the usage of the comma operator in JavaScript and provide an example.
+
+
+Answer:- Comma operator allows us to evaluate multiple expressions in a single statement like declaring multiple variables in a single statement separating them with the comma operator.
+
+
+Example:-         const a = 10, b = 20, c = 100;
+console.log(a,b,c);
+
+
+Problem Statement 3 :- Use a nested ternary operator to check that a number is positive, negative or zero. You have to print “positive” if the number is positive and similarly for negative and zero also.
+
+
+Answer:-         let number = -5;
+let result = number > 0 ? "positive" 
+                    : number < 0 ? "negative" 
+                    : "zero";
+console.log(result); // Output: negative
+
+
+Problem Statement 4 :- Use a ternary operator to check that a person is eligible to vote or not by checking his age. If the age of the person is less than 18 then “You cannot vote” should be logged else “You can vote” should be logged.
+
+
+Answer:-         let age = 20;
+let result = age < 18 ? "You cannot vote" : "You can vote";
+console.log(result); // Output: You can vote
+
+
+Problem Statement 1 :- Explain the usage of ternary operator with syntax and write a program to check whether the number is even or odd using the ternary operator.
+ 
+Answer:- Ternary operator is used to test the conditions similar to that of an if else block. It has three operands: condition, statement if condition is true and statement if condition will be false.
+
+
+Syntax:-         condition ? expression1 : expression2
+
+
+Example:-         let x = 10;
+let result = x > 5 ? "Greater than 5" : "Less than or equal to 5";
+console.log(result); // Output: Greater than 5
